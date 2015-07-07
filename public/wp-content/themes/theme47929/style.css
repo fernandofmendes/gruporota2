@@ -1,0 +1,113 @@
+/*--
+	Theme Name: theme47929
+	Theme URI: http://template-help.com/
+	Description: A theme for Wordpress 3.7.x + from Template-Help.com Collection
+	Author: Template_Help.com
+	Author URL: http://www.Template-Help.com/
+	Template: CherryFramework
+	Version: 3.0
+	MotoPress Version: 1.0
+--*/
+@import url("main-style.css");
+
+/* ----------------------------------------
+	Please, You may put custom css here
+---------------------------------------- */
+
+.header {
+	background-size: 100% auto !important;
+	background-position: 0px !important;
+	z-index: 1;
+}
+
+.header > .container {  
+	height:84px;
+	background-color:rgba(255, 255, 255, 0.95);
+	margin-top: -15px;
+	margin-bottom: 415px;
+	border-radius: 5px;
+}
+
+
+.slider .camera_wrap .camera_pag {
+  background: none;
+}
+
+
+.logo {
+	margin: 7px;
+}
+
+
+
+.menulanguage {
+	padding: 12px;
+	text-align: right;
+	color: #EEE !important; /*23282d */
+	font: normal 10px/20px Open Sans !important;
+	text-transform: uppercase;
+	margin-top: -45px;
+  	margin-bottom: 45px;
+  	margin-right: -10px;
+}
+
+
+
+
+
+/* bolinha slider */
+.slider .camera_wrap .camera_pag li.cameracurrent, .slider .camera_wrap .camera_pag li:hover {
+  background: #444444;
+}
+
+
+
+.content_plane {
+	background:#16a085;
+}
+
+.content_plane:after, .content_plane:before {
+	background:#16a085;
+
+}
+
+.content_plane.whith_arr { 
+	background:url(images/plane_arr.png) 50% 0 no-repeat #16a085; 
+}
+
+
+
+#topnav li a {
+  padding: 0px 25px 20px; /*10px 25px 28px;*/
+  font-size: 16px !important;
+  letter-spacing: 0px !important;
+}
+
+#topnav li.current-menu-item > a, #topnav li.sfHover > a, #topnav li a:hover {
+	color:#444444 !important; /*0b9444*/
+}
+
+#topnav li a:before {
+	background:#444444; /*0b9444*/
+}
+
+.sf-menu > li > a {
+	color: #444444 !important;
+	font: normal 10px/20px Open Sans !important;
+}
+
+.btn, .btn:focus, #sidebar .search-form .btn, #sidebar .search-form .btn:focus {
+	background:#6D6E71; /*0b9444*/
+}
+
+
+#topnav li .sub-menu {
+  margin: -5px 0 0;
+  padding: 20px 0;
+  width: auto;
+  background-color:rgba(0, 0, 0, 0.65);
+}
+
+.content_plane.whith_arr {
+  background: #16a085 !important;
+}
